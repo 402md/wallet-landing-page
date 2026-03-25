@@ -37,7 +37,7 @@ export default function Home() {
           </a>
 
 
-          <div className="hidden items-center justify-end gap-3 md:flex">
+          <div className="flex items-center justify-end gap-3">
             <a
               href={DISCORD_URL}
               target="_blank"
@@ -82,7 +82,7 @@ export default function Home() {
           </span>
 
           <h1
-            className="section-enter mt-6 text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl"
+            className="section-enter mt-6 text-[2.5rem] font-bold leading-tight tracking-tight sm:text-6xl lg:text-7xl"
             style={{ '--stagger-index': 1 } as React.CSSProperties}
           >
             <span className="whitespace-nowrap">Give Claude Desktop a</span>
@@ -102,12 +102,12 @@ export default function Home() {
           </p>
 
           <div
-            className="section-enter mt-8 flex flex-wrap justify-center gap-4"
+            className="section-enter mt-8 flex justify-center gap-3 [&>a]:flex-1 [&>a]:justify-center sm:gap-4 sm:[&>a]:flex-initial"
             style={{ '--stagger-index': 3 } as React.CSSProperties}
           >
             <a
               href={DOWNLOAD_URL}
-              className="bg-primary text-primary-foreground inline-flex items-center gap-2 rounded-xl px-6 py-3 font-semibold transition-all hover:brightness-110 hover:shadow-[0_0_24px_oklch(0.8672_0.201_134.48/0.3)] active:translate-y-px"
+              className="bg-primary text-primary-foreground inline-flex items-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-all hover:brightness-110 hover:shadow-[0_0_24px_oklch(0.8672_0.201_134.48/0.3)] active:translate-y-px sm:px-6 sm:py-3 sm:text-base"
             >
               <Download className="size-[18px]" />
               Download .mcpb
@@ -116,7 +116,7 @@ export default function Home() {
               href={GITHUB_REPO}
               target="_blank"
               rel="noopener noreferrer"
-              className="border-border inline-flex items-center gap-2 rounded-xl border bg-transparent px-6 py-3 font-semibold transition-all hover:border-white/20 hover:bg-white/[0.03] active:translate-y-px"
+              className="border-border inline-flex items-center gap-2 rounded-xl border bg-transparent px-4 py-2.5 text-sm font-semibold transition-all hover:border-white/20 hover:bg-white/[0.03] active:translate-y-px sm:px-6 sm:py-3 sm:text-base"
             >
               <GithubIcon className="size-[18px]" />
               View on GitHub

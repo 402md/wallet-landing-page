@@ -7,7 +7,7 @@ const FaultyTerminal = dynamic(() => import('@/components/FaultyTerminal'), {
 })
 
 export const HeroBackground = () => (
-  <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
+  <div className="pointer-events-none absolute inset-0 hidden overflow-hidden md:block" aria-hidden="true">
     <FaultyTerminal
       scale={2.6}
       digitSize={5}
