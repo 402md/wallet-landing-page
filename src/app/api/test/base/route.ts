@@ -24,7 +24,4 @@ export const GET = withX402(
     description: "x402 test endpoint — Base Sepolia",
   },
   resourceServer,
-  undefined,
-  undefined,
-  false,
 );
