@@ -1,6 +1,7 @@
 import { Download } from 'lucide-react'
 import { CookieSettingsTrigger } from '@/components/cookie-settings-trigger'
 import { HeroBackground } from '@/components/hero-background'
+import { TryItSection } from '@/components/try-it-section'
 
 const GithubIcon = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="currentColor" className={className}>
@@ -284,6 +285,11 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <div className="mx-auto h-px max-w-3xl bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
+
+      {/* Try It */}
+      <TryItSection />
 
       <div className="mx-auto h-px max-w-3xl bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
 
