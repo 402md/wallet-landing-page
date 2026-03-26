@@ -44,7 +44,7 @@ function CopyButton({ text }: { text: string }) {
   )
 }
 
-const PRODUCTION_ORIGIN = 'https://claude-wallet.402.md'
+const PRODUCTION_ORIGIN = 'https://wallet.402.md'
 
 export function TryItSection() {
   const [origin, setOrigin] = useState(PRODUCTION_ORIGIN)

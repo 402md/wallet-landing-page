@@ -31,7 +31,7 @@ export default function Home() {
       <header className="liquid-glass fixed top-14 right-0 left-0 z-50 mx-auto w-[calc(100%-2rem)] max-w-6xl rounded-2xl px-5">
         <div className="grid h-14 grid-cols-[auto_1fr_auto] items-center">
           <a
-            href="https://claude-wallet.402.md"
+            href="https://wallet.402.md"
             className="font-pixel-square text-lg font-bold tracking-tight"
           >
             402.md

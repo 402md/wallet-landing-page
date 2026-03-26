@@ -16,7 +16,7 @@ export const viewport: Viewport = {
   colorScheme: 'dark'
 }
 
-const siteUrl = 'https://claude-wallet.402.md'
+const siteUrl = 'https://wallet.402.md'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
