@@ -10,7 +10,7 @@ const GithubIcon = ({ className }: { className?: string }) => (
 )
 
 const GITHUB_REPO = 'https://github.com/402md/x402-wallet-for-claude-desktop'
-const DOWNLOAD_URL = `${GITHUB_REPO}/releases/download/v0.1.2/x402-wallet.mcpb`
+const DOWNLOAD_URL = `${GITHUB_REPO}/releases/download/v0.1.4/x402-wallet.mcpb`
 const DISCORD_URL = 'https://discord.gg/vCZhkEswKm'
 
 const DiscordIcon = ({ className }: { className?: string }) => (
